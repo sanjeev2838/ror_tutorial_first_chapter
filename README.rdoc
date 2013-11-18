@@ -1,0 +1,4 @@
+Things i have learned in this chapter are :
+1.) installation of rvm ,ruby , rails ,basic application
+  attaching it with github , then deploying it on heroku platform.
+   
