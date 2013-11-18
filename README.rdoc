@@ -23,3 +23,5 @@ simple function to create an random string :-
 4.) The welcomes controller is only for development.
  Here is the pull request that added it stating that it
  only works in the development environment:
+
+ 5.) heroku logs --tail
