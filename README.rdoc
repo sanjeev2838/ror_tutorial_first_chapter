@@ -2,6 +2,7 @@ Things i have learned in this chapter are :
 1.) installation of rvm ,ruby , rails ,basic application
   attaching it with github , then deploying it on heroku platform.
 things needs to be consider before deployng app on heroku
+--> create gruop like development as well as production )
   ---> add pg in gemfile (because herokuuses postgresql)
 2.) heroku commands :-
   -->install heroku client on your application
