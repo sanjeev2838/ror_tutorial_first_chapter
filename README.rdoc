@@ -1,4 +1,15 @@
 Things i have learned in this chapter are :
 1.) installation of rvm ,ruby , rails ,basic application
   attaching it with github , then deploying it on heroku platform.
-   
+things needs to be consider before deployng app on heroku
+  ---> add pg in gemfile (because herokuuses postgresql)
+2.) heroku commands :-
+  -->install heroku client on your application
+  ---> heroku login
+  ----> go to your project directory heroku create
+  ---> ush your github code on heroku ( git push heroku branch_name)
+  this may lead to an error ;- related to ssh keys configuration
+        heroku keys:add ~/.ssh/id_rsa.pub
+        add your public key on heroku remote server
+  ----> other way is clear yoour ssh:keys
+   heroku keys:clear
