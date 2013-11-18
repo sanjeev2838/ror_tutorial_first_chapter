@@ -27,3 +27,8 @@ simple function to create an random string :-
 5.) heroku logs --tail
 6.) Add the content of your id_rsa.pub file in account under option(ssh keys)
 ( removes the need of typing username and password  )
+7.) git config --global credential.helper "cache --timeout=3600"
+to remember username and password application
+--------
+http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-github
+-------
