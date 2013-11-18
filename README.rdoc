@@ -24,4 +24,6 @@ simple function to create an random string :-
  Here is the pull request that added it stating that it
  only works in the development environment:
 
- 5.) heroku logs --tail
+5.) heroku logs --tail
+6.) Add the content of your id_rsa.pub file in account under option(ssh keys)
+( removes the need of typing username and password  )
